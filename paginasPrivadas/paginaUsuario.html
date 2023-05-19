@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/estilos.css">
+    <title>Perfil</title>
+</head>
+<body>
+    <div class="container">
+
+        <!-- Barra de navegación Superior -->
+        <header>
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">
+                                <img src="/img/logo.png" alt="Logo"
+                                    width="30" height="24"
+                                    class="d-inline-block align-text-top">
+                                Sistema Médico
+                            </a>
+                            <button class="navbar-toggler" type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle
+                                navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse"
+                                id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active"
+                                            aria-current="page"
+                                            href="/index.html">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contacto</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle"
+                                            href="#" role="button"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Proveedores de Salud
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item"
+                                                    href="https://reportesdeis.minsal.cl/ListaEstablecimientoWebSite/default.aspx" target="_blank">Hospitales</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="https://www.clinicasdechile.cl/asociados/" target="_blank">Clínicas</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="https://www.fonasa.cl/sites/fonasa/inicio" target="_blank">Fonasa</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="http://www.isapre.cl/home" target="_blank">Isapres</a></li>
+                                            <li><hr
+                                                    class="dropdown-divider"></li>
+                                            <li><a class="dropdown-item"
+                                                    href="/proveedoresSalud.html">Página
+                                                    Proveedores de Salud</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                </ul>
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle"
+                                            href="#" role="button"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            Sitios Privados
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item"
+                                                    href="/paginasPrivadas/citas.html">Mis Citas</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="/paginasPrivadas/examenes.html">Mis Examenes</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="/paginasPrivadas/enfermedades.html">Mis Enfermedades</a></li>
+                                            <li><a class="dropdown-item"
+                                                    href="/paginasPrivadas/contactoFamiliares.html">Mis Contactos Familiares</a></li>
+                                            <li><hr
+                                                    class="dropdown-divider"></li>
+                                            <li><a class="dropdown-item"
+                                                    href="/paginasPrivadas/paginaUsuario.html">Mi Perfil</a></li>
+                                        </ul>
+                                    </li>
+                                    </li>
+                                    
+                                    
+                                </ul>
+                                
+
+                                    
+                                    
+                                </ul>
+
+
+                                <a class="btn btn-secondary" href="/index.html" role="button">Cerrar Sesión</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- Cuerpo Pagina -->
+        <div class="container-fluid">
+            <div class="row flex-nowrap">
+
+                <!-- Barra Lateral  -->
+                <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-body-tertiary">
+                    <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-dark min-vh-100">
+                        <a href="/paginasPrivadas/paginaUsuario.html" class="d-flex align-items-center pb-3 mt-4 me-md-auto text-dark text-decoration-none">
+                            <span class="fs-5 d-none d-sm-inline">Resumen Perfil</span>
+                        </a>
+                        <img src="https://cdn.pixabay.com/photo/2014/04/02/10/48/old-304605_1280.png" alt="" width="100">
+                        <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                            <li><a class="mt-4 nav-link text-dark" href="/paginasPrivadas/citas.html">Mis Citas</a></li>
+                            <li><a class="mt-4 nav-link text-dark" href="/paginasPrivadas/examenes.html">Mis Examenes</a></li>
+                            <li><a class="mt-4 nav-link text-dark" href="/paginasPrivadas/enfermedades.html">Mis Enfermedades</a></li>
+                            <li><a class="mt-4 nav-link text-dark" href="/paginasPrivadas/contactoFamiliares.html">Mis Contactos Familiares</a></li>
+                        </ul>
+                        <hr>
+                        <div class="dropdown pb-4">
+                            <a href="#" class="d-flex align-items-center text-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="https://cdn.pixabay.com/photo/2014/04/02/10/48/old-304605_1280.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
+                                <span class="d-none d-sm-inline mx-1">Juanita Perez</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                                <li><a class="dropdown-item" href="/paginasPrivadas/paginaUsuario.html">Configuración</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="/index.html">Cerrar sesión</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col bg-body-secondary">
+
+                
+
+                    <!-- tarjetas para mostrar los resumenes ya añadidos -->
+                    <div class="container text-center" >
+                        <h2 class="text-center my-4">Resumen </h2>
+                        <div class="row justify-content-center" >
+                            <div class="col-lg-4 mb-4">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title mb-4 border-bottom">Datos Personales</h5>
+                                        <div class="card-text">
+                                            <p>Nombre: Juanita Pérez Rojo</p>
+                                            <p>Rut:	12.345.678-9</p>
+                                            <p>Fecha Nacimiento	01-01-1958</p>
+                                            <p>Dirección: Calle sin salida #123</p>
+                                            <p>Teléfono: +56888999999</p>
+                                            <p>Email: </p>
+                                            <p>Previsión: Fonasa</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-4">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title mb-4 border-bottom">Enfermedad</h5>
+                                        <div class="card-text">
+                                            <p>Diagnostico: Asma</p>
+                                            <p>Médico Tratante: Rodrigo Rojas</p>
+                                            <p>Fecha Consulta: 01-12-2022</p>
+                                            <p>Tratamiento: Tomar agua una vez al día</p>
+                                            <p>Inicio Tratamiento: 12-45-2023</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-4">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title mb-4 border-bottom">Enfermedad</h5>
+                                        <div class="card-text">
+                                            <p>Diagnostico: Migraña</p>
+                                            <p>Médico Tratante: Paula Alvarado</p>
+                                            <p>Fecha Consulta: 11-11-2022</p>
+                                            <p>Tratamiento: Dormir bien</p>
+                                            <p>Inicio Tratamiento: 12-05-2023</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-4">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <h5 class="card-title mb-4 border-bottom">Contacto de Familiar</h5>
+                                        <div class="card-text">
+                                            <p>Nombre: Eduardo Alonso </p>
+                                            <p>Teléfono: +56888999999</p>
+                                            <p>Email: correo2@gmail.com</p>
+                                            <p>Dirección: Calle con salida #123</p>
+                                            <p>Parentesco: Sobrino</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                         
+                        </div>
+                       
+                    </div>
+
+                </div>
+
+
+                    
+            
+
+                
+            </div>
+        </div>
+
+        <!-- Pie de Página -->
+        <footer>
+            <div class="row">
+                <div class="col">
+                    <div class="text-center bg-secondary-subtle mt-3 py-2">
+                        <a href="https://www.facebook.com/"><img
+                                src="/img/iconEnlaces/facebook.png"
+                                alt="Facebook"
+                                /></a>
+                        <a href="https://www.twitter.com/"><img
+                                src="/img/iconEnlaces//twitter.png"
+                                alt="Twitter"
+                                /></a>
+                        <a href="https://www.whatsapp.com/"><img
+                                src="/img/iconEnlaces//whatsapp.png"
+                                alt="Whatsapp"
+                                /></a>
+                        <a href="https://www.instagram.com/"><img
+                                src="/img/iconEnlaces//instagram.png"
+                                alt="Instagram"
+                                /></a>
+
+                        <p>Copyright 2023 - Grupal M 2</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+    <script src="/js/logica.js"></script>
+        
+</body>
+</html>

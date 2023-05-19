@@ -1,0 +1,16 @@
+/* Tamaño de imágenes del footer */
+footer img {
+    width: 20px;
+    height: 20px;
+  }
+
+/* Página de inicio  */
+#bondadesForm{
+    margin-top: 40px;
+}
+
+#parrafo-bondades{
+    text-align: justify;
+    text-indent: 15px;
+}
+
