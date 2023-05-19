@@ -10,7 +10,7 @@
             integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
             crossorigin="anonymous">
         <link rel="stylesheet" href="/css/estilos.css">
-        <title>Contactos Familiares</title>
+        <title>Proveedores de Salud</title>
     </head>
     <body>
         <div class="container">
@@ -22,35 +22,27 @@
                         <nav class="navbar navbar-expand-lg bg-body-tertiary">
                             <div class="container-fluid">
                                 <a class="navbar-brand" href="#">
-                                    <img src="/img/logo.png" alt="Logo"
-                                        width="30" height="24"
+                                    <img src="/img/logo.png" alt="Logo" width="30" height="24"
                                         class="d-inline-block align-text-top">
                                     Sistema Médico
                                 </a>
-                                <button class="navbar-toggler" type="button"
-                                    data-bs-toggle="collapse"
-                                    data-bs-target="#navbarSupportedContent"
-                                    aria-controls="navbarSupportedContent"
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                     aria-expanded="false" aria-label="Toggle
-                                    navigation">
+                                        navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="collapse navbar-collapse"
-                                    id="navbarSupportedContent">
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                         <li class="nav-item">
-                                            <a class="nav-link active"
-                                                aria-current="page"
-                                                href="/index.html">Inicio</a>
+                                            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Contacto</a>
                                         </li>
                                         <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle"
-                                                href="#" role="button"
-                                                data-bs-toggle="dropdown"
-                                                aria-expanded="false">
+                                            <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
                                                 Proveedores de Salud
                                             </a>
                                             <ul class="dropdown-menu">
@@ -63,50 +55,19 @@
                                                 <li><a class="dropdown-item"
                                                         href="https://www.fonasa.cl/sites/fonasa/inicio"
                                                         target="_blank">Fonasa</a></li>
-                                                <li><a class="dropdown-item"
-                                                        href="http://www.isapre.cl/home"
+                                                <li><a class="dropdown-item" href="http://www.isapre.cl/home"
                                                         target="_blank">Isapres</a></li>
-                                                <li><hr
-                                                        class="dropdown-divider"></li>
-                                                <li><a class="dropdown-item"
-                                                        href="/proveedoresSalud.html">Página
+                                                <li>
+                                                    <hr class="dropdown-divider">
+                                                </li>
+                                                <li><a class="dropdown-item" href="/proveedoresSalud.html">Página
                                                         Proveedores de Salud</a></li>
                                             </ul>
                                         </li>
-
+    
                                     </ul>
-                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle"
-                                                href="#" role="button"
-                                                data-bs-toggle="dropdown"
-                                                aria-expanded="false">
-                                                Sitios Privados
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item"
-                                                        href="/paginasPrivadas/citas.html">Mis
-                                                        Citas</a></li>
-                                                <li><a class="dropdown-item"
-                                                        href="/paginasPrivadas/examenes.html">Mis
-                                                        Examenes</a></li>
-                                                <li><a class="dropdown-item"
-                                                        href="/paginasPrivadas/enfermedades.html">Mis
-                                                        Enfermedades</a></li>
-                                                <li><a class="dropdown-item"
-                                                        href="/paginasPrivadas/contactoFamiliares.html">Mis
-                                                        Contactos Familiares</a></li>
-                                                <li><hr
-                                                        class="dropdown-divider"></li>
-                                                <li><a class="dropdown-item"
-                                                        href="/paginasPrivadas/paginaUsuario.html">Mi
-                                                        Perfil</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                    <a class="btn btn-secondary"
-                                        href="/index.html" role="button">Cerrar
-                                        Sesión</a>
+                                    <a class="btn btn-secondary" href="/loginPaciente.html" role="button">Login</a>
+                                    <a class="btn btn-secondary" href="#registro" role="button">Registro</a>
                                 </div>
                             </div>
                         </nav>
@@ -117,66 +78,7 @@
             <!-- Cuerpo Pagina -->
             <div class="container-fluid">
                 <div class="row flex-nowrap">
-
-                    <!-- Barra Lateral  -->
-                    <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0
-                        bg-body-tertiary">
-                        <div class="d-flex flex-column align-items-center
-                            align-items-sm-start px-3 pt-2 text-dark
-                            min-vh-100">
-                            <a href="/paginasPrivadas/paginaUsuario.html"
-                                class="d-flex align-items-center pb-3 mt-4
-                                me-md-auto text-dark text-decoration-none">
-                                <span class="fs-5 d-none d-sm-inline">Resumen
-                                    Perfil</span>
-                            </a>
-                            <img
-                                src="https://cdn.pixabay.com/photo/2014/04/02/10/48/old-304605_1280.png"
-                                alt="" width="100">
-                            <ul class="nav nav-pills flex-column mb-sm-auto mb-0
-                                align-items-center align-items-sm-start"
-                                id="menu">
-                                <li><a class="mt-4 ml-0 nav-link text-dark"
-                                        href="/paginasPrivadas/citas.html">Mis
-                                        Citas</a></li>
-                                <li><a class="mt-4 nav-link text-dark"
-                                        href="/paginasPrivadas/examenes.html">Mis
-                                        Examenes</a></li>
-                                <li><a class="mt-4 nav-link text-dark"
-                                        href="/paginasPrivadas/enfermedades.html">Mis
-                                        Enfermedades</a></li>
-                                <li><a class="mt-4 nav-link text-dark"
-                                        href="/paginasPrivadas/contactoFamiliares.html">Mis
-                                        Contactos</a></li>
-                            </ul>
-                            <hr>
-                            <div class="dropdown pb-4">
-                                <a href="#" class="d-flex align-items-center
-                                    text-dark text-decoration-none
-                                    dropdown-toggle" id="dropdownUser1"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    <img
-                                        src="https://cdn.pixabay.com/photo/2014/04/02/10/48/old-304605_1280.png"
-                                        alt="hugenerd" width="30" height="30"
-                                        class="rounded-circle">
-                                    <span class="d-none d-sm-inline mx-1">Juanita
-                                        Perez</span>
-                                </a>
-                                <ul class="dropdown-menu dropdown-menu-dark
-                                    text-small shadow">
-                                    <li><a class="dropdown-item"
-                                            href="/paginasPrivadas/paginaUsuario.html">Configuración</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item"
-                                            href="/index.html">Cerrar sesión</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
+                    
                     <!-- Contenido Página -->
                     <div class="col bg-body-secondary">
                         <!--inicio sección cards proveedores-->
