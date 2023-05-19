@@ -104,237 +104,213 @@
                                             </ul>
                                         </li>
                                     </ul>
-
-
                                 </div>
-
-
-
-
                             </div>
-
-
                             <a class="btn btn-secondary" href="/index.html"
                                 role="button">Cerrar Sesión</a>
-
                         </nav>
                     </div>
                 </div>
             </header>
-        </div>
 
-        <!-- Cuerpo Pagina -->
-        <div class="container-fluid">
-            <div class="row flex-nowrap">
+            <!-- Cuerpo Pagina -->
+            <div class="container-fluid">
+                <div class="row flex-nowrap">
 
-                <!-- Barra Lateral  -->
-                <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0
+                    <!-- Barra Lateral  -->
+                    <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0
                     bg-body-tertiary">
-                    <div class="d-flex flex-column align-items-center
-                        align-items-sm-start px-3 pt-2 text-dark min-vh-100">
-                        <a href="/paginasPrivadas/paginaUsuario.html"
-                            class="d-flex
+                        <div class="d-flex flex-column align-items-center
+                        align-items-sm-start px-3 pt-2 text-dark ">
+                            <a href="/paginasPrivadas/paginaUsuario.html"
+                                class="d-flex
                             align-items-center pb-3 mt-4 me-md-auto text-dark
                             text-decoration-none">
-                            <span class="fs-5 d-none d-sm-inline">Resumen Perfil</span>
-                        </a>
-                        <img
-                            src="https://cdn.pixabay.com/photo/2014/04/02/10/48/old-304605_1280.png"
-                            alt="" width="100">
-                        <ul class="nav nav-pills flex-column mb-sm-auto mb-0
+                                <span class="fs-5 d-none d-sm-inline">Resumen
+                                    Perfil</span>
+                            </a>
+                            <img
+                                src="https://cdn.pixabay.com/photo/2014/04/02/10/48/old-304605_1280.png"
+                                alt width="100">
+                            <ul
+                                class="nav nav-pills flex-column mb-sm-auto mb-0
                             align-items-center align-items-sm-start" id="menu">
-                            <li><a class="mt-4 nav-link text-dark"
-                                    href="/paginasPrivadas/citas.html">Mis Citas</a></li>
-                            <li><a class="mt-4 nav-link text-dark"
-                                    href="/paginasPrivadas/examenes.html">Mis
-                                    Examenes</a></li>
-                            <li><a class="mt-4 nav-link text-dark"
-                                    href="/paginasPrivadas/enfermedades.html">Mis
-                                    Enfermedades</a></li>
-                            <li><a class="mt-4 nav-link text-dark"
-                                    href="/paginasPrivadas/contactoFamiliares.html">Mis
-                                    Contactos Familiares</a></li>
-                        </ul>
-                        <hr>
-                        <div class="dropdown pb-4">
-                            <a href="#" class="d-flex align-items-center
+                                <li><a class="mt-4 nav-link text-dark"
+                                        href="/paginasPrivadas/citas.html">Mis
+                                        Citas</a></li>
+                                <li><a class="mt-4 nav-link text-dark"
+                                        href="/paginasPrivadas/examenes.html">Mis
+                                        Examenes</a></li>
+                                <li><a class="mt-4 nav-link text-dark"
+                                        href="/paginasPrivadas/enfermedades.html">Mis
+                                        Enfermedades</a></li>
+                                <li><a class="mt-4 nav-link text-dark"
+                                        href="/paginasPrivadas/contactoFamiliares.html">Mis
+                                        Contactos Familiares</a></li>
+                            </ul>
+                            <hr>
+                            <div class="dropdown pb-4">
+                                <a href="#" class="d-flex align-items-center
                                 text-dark
                                 text-decoration-none dropdown-toggle"
-                                id="dropdownUser1" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                <img
-                                    src="https://cdn.pixabay.com/photo/2014/04/02/10/48/old-304605_1280.png"
-                                    alt="hugenerd" width="30" height="30"
-                                    class="rounded-circle">
-                                <span class="d-none d-sm-inline mx-1">Juanita
-                                    Perez</span>
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-dark
+                                    id="dropdownUser1" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <img
+                                        src="https://cdn.pixabay.com/photo/2014/04/02/10/48/old-304605_1280.png"
+                                        alt="hugenerd" width="30" height="30"
+                                        class="rounded-circle">
+                                    <span class="d-none d-sm-inline mx-1">Juanita
+                                        Perez</span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-dark
                                 text-small
                                 shadow">
-                                <li><a class="dropdown-item"
-                                        href="/paginasPrivadas/paginaUsuario.html">Configuración</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="/index.html">Cerrar
-                                        sesión</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-
-                <!-- Contenido Página -->
-                <div class="col bg-body-secondary">
-
-                    <!-- Examenes - se abre un modal con un formulario para el ingreso de datos -->
-                    <div class="d-flex justify-content-center mt-4">
-                        <div class="col-auto">
-                            <div class="justify-content-center">
-                            <h1 class="fs-5">
-                            Accede aquí a tu historial de exámenes</h1>
-                            </div>
-                            <div class="justify-content-center">
-                                <button
-                                type="button" class="btn btn-danger"
-                                data-bs-toggle="modal"
-                                data-bs-target="#modalMostrarExamenes"> <img
-                                    src="https://cdn4.iconfinder.com/data/icons/essential-3/32/329-Document_Report-256.png"
-                                    alt="" width="10"> Haz click para ver tus
-                                Exámenes
-                                </button>
+                                    <li><a class="dropdown-item"
+                                            href="/paginasPrivadas/paginaUsuario.html">Configuración</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="/index.html">Cerrar
+                                            sesión</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
 
-                    <div class="modal fade" id="modalMostrarExamenes">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5">
-                                        Historial de Exámenes</h1>
-                                    <button type="button" class="btn-close"
-                                        data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
+                    <!-- Contenido Página -->
+                    <div class="col bg-body-secondary">
+
+                        <!-- Examenes - se abre un modal con un formulario para el ingreso de datos -->
+                        <div class="container">
+                             
+                                <div class="title text-center">
+                                    <h1 class="fs-5">
+                                        Accede aquí a tu historial de exámenes</h1>
                                 </div>
-                                <div class="modal-body">
+                                <div class="button text-center" >
+                                    <button
+                                        type="button" class="btn btn-danger"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#modalMostrarExamenes">
+                                        <img
+                                            src="https://cdn4.iconfinder.com/data/icons/essential-3/32/329-Document_Report-256.png"
+                                            alt width="10"> Haz click para ver
+                                        tus
+                                        Exámenes
+                                    </button>
+                                </div>
+                            
+                        </div>
 
-                                    <div style="margin-bottom: 15px;">
-                                        <a href="examenes/examen1.html"
-                                            class="btn
+                        <div class="modal fade" id="modalMostrarExamenes">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5">
+                                            Historial de Exámenes</h1>
+                                        <button type="button" class="btn-close"
+                                            data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+
+                                        <div style="margin-bottom: 15px;">
+                                            <a href="examenes/examen1.html"
+                                                class="btn
                                             btn-danger">
-                                            Hemograma <span class="badge">Nuevo!</span>
-                                        </a>
-                                    </div>
-                                    <div style="margin-bottom: 15px;">
-                                        <a href="examenes/examen2.html"
-                                            class="btn
+                                                Hemograma <span class="badge">Nuevo!</span>
+                                            </a>
+                                        </div>
+                                        <div style="margin-bottom: 15px;">
+                                            <a href="examenes/examen2.html"
+                                                class="btn
                                             btn-danger">
-                                            Perfil Lipídico <span
-                                                class="badge">Nuevo!</span>
-                                        </a>
-                                    </div>
-                                    <div style="margin-bottom: 15px;">
-                                        <a href="examenes/examen3.html"
-                                            class="btn
+                                                Perfil Lipídico <span
+                                                    class="badge">Nuevo!</span>
+                                            </a>
+                                        </div>
+                                        <div style="margin-bottom: 15px;">
+                                            <a href="examenes/examen3.html"
+                                                class="btn
                                             btn-primary">
-                                            Colesterol <span class="badge">04/04/2023</span>
-                                        </a>
-                                    </div>
-                                    <div style="margin-bottom: 15px;">
-                                        <a href="examenes/examen4.html"
-                                            class="btn
+                                                Colesterol <span class="badge">04/04/2023</span>
+                                            </a>
+                                        </div>
+                                        <div style="margin-bottom: 15px;">
+                                            <a href="examenes/examen4.html"
+                                                class="btn
                                             btn-primary">
-                                            Triglicéridos <span
-                                                class="badge">20/03/2023</span>
-                                        </a>
-                                    </div>
-                                    <div style="margin-bottom: 15px;">
-                                        <a href="examenes/examen5.html"
-                                            class="btn
+                                                Triglicéridos <span
+                                                    class="badge">20/03/2023</span>
+                                            </a>
+                                        </div>
+                                        <div style="margin-bottom: 15px;">
+                                            <a href="examenes/examen5.html"
+                                                class="btn
                                             btn-success">
-                                            Orina <span class="badge">15/02/2023</span>
-                                        </a>
-                                    </div>
-                                    <div style="margin-bottom: 15px;">
-                                        <a href="examenes/examen6.html"
-                                            class="btn
+                                                Orina <span class="badge">15/02/2023</span>
+                                            </a>
+                                        </div>
+                                        <div style="margin-bottom: 15px;">
+                                            <a href="examenes/examen6.html"
+                                                class="btn
                                             btn-success">
-                                            Perfil Bioquímico <span
-                                                class="badge">05/01/2023</span>
-                                        </a>
-                                    </div>
-                                    <div style="margin-bottom: 15px;">
-                                        <a href="examenes/examen7.html"
-                                            class="btn
+                                                Perfil Bioquímico <span
+                                                    class="badge">05/01/2023</span>
+                                            </a>
+                                        </div>
+                                        <div style="margin-bottom: 15px;">
+                                            <a href="examenes/examen7.html"
+                                                class="btn
                                             btn-secondary">
-                                            Resistencia a Antibióticos <span
-                                                class="badge">23/12/2022</span>
-                                        </a>
+                                                Resistencia a Antibióticos <span
+                                                    class="badge">23/12/2022</span>
+                                            </a>
+                                        </div>
+
                                     </div>
+                                    <div class="modal-footer">
 
-                                </div>
-                                <div class="modal-footer">
-
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
+
+                <!-- Pie de Página -->
+                <footer>
+                    <div class="row">
+                        <div class="col">
+                            <div
+                                class="text-center bg-secondary-subtle mt-3 py-2">
+                                <a href="https://www.facebook.com/"><img
+                                        src="/img/iconEnlaces/facebook.png"
+                                        alt="Facebook"
+                                        /></a>
+                                <a href="https://www.twitter.com/"><img
+                                        src="/img/iconEnlaces//twitter.png"
+                                        alt="Twitter"
+                                        /></a>
+                                <a href="https://www.whatsapp.com/"><img
+                                        src="/img/iconEnlaces//whatsapp.png"
+                                        alt="Whatsapp"
+                                        /></a>
+                                <a href="https://www.instagram.com/"><img
+                                        src="/img/iconEnlaces//instagram.png"
+                                        alt="Instagram"
+                                        /></a>
+
+                                <p>Copyright 2023 - Grupal M 2</p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
 
             </div>
-
-            <!-- Modal de cada exámen -->
-
-            <!-- Exámen 1 -->
-
-
-            <!-- Exámen 2 -->
-
-
-
-            <!-- Exámen 3 -->
-
-
-            <!-- Exámen 4 -->
-
-
-            <!-- Exámen 5 -->
-
-
-
-
-            <!-- Pie de Página -->
-            <footer>
-                <div class="row">
-                    <div class="col">
-                        <div class="text-center bg-secondary-subtle mt-3 py-2">
-                            <a href="https://www.facebook.com/"><img
-                                    src="/img/iconEnlaces/facebook.png"
-                                    alt="Facebook"
-                                    /></a>
-                            <a href="https://www.twitter.com/"><img
-                                    src="/img/iconEnlaces//twitter.png"
-                                    alt="Twitter"
-                                    /></a>
-                            <a href="https://www.whatsapp.com/"><img
-                                    src="/img/iconEnlaces//whatsapp.png"
-                                    alt="Whatsapp"
-                                    /></a>
-                            <a href="https://www.instagram.com/"><img
-                                    src="/img/iconEnlaces//instagram.png"
-                                    alt="Instagram"
-                                    /></a>
-
-                            <p>Copyright 2023 - Grupal M 2</p>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-
         </div>
-
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
